@@ -19,5 +19,11 @@ fn main() {
     println!("{:#?}", ("test1", "test2"));        // 带换行和缩进的Debug打印
 
     println!("{a} {b} {b}", a = "x", b = "y");   // 命名参数
-    
+
+    //变量声明
+    let variable: i32 = 100;
+    let mut x = 5;
+    x = 10;
+    let (mut a, mut b) = (1, 2);
+
 }
