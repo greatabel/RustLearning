@@ -26,4 +26,8 @@ fn main() {
     x = 10;
     let (mut a, mut b) = (1, 2);
 
+    let x = "hello";
+    println!("x is {}", x);
+    let x = 5;
+    println!("x is {}", x);
 }
