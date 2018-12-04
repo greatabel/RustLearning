@@ -30,4 +30,9 @@ fn main() {
     println!("x is {}", x);
     let x = 5;
     println!("x is {}", x);
+
+    let v = Vec::new();
+    let mut v = v;
+    v.push(1);
+    println!("{:?}", v);
 }
