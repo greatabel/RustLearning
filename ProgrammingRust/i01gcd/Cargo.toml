@@ -1,0 +1,6 @@
+[package]
+name = "i01gcd"
+version = "0.1.0"
+authors = ["greatabel <myreceiver2for2github@gmail.com>"]
+
+[dependencies]
